@@ -1,0 +1,22 @@
+Column_Name,Description,Data_Type
+Transaction_ID,Unique synthetic transaction identifier,Text
+Transaction_Date,Transaction date,Date
+Transaction_Time,Transaction time,Time
+State,Synthetic state category,Text
+City,Synthetic city category,Text
+Transaction_Type,"P2P, P2M, Bill Payment, Recharge, or Bank Transfer",Text
+Merchant_Category,Merchant category for P2M; N/A otherwise,Text
+Payment_App,Synthetic payment app category,Text
+Bank,Synthetic bank category,Text
+Amount,Transaction amount in INR,Decimal
+Status,"Success, Failed, or Pending",Text
+Device_Type,"Android, iOS, or Web",Text
+Customer_Age,Synthetic customer age,Whole number
+Customer_Gender,Synthetic gender category,Text
+Risk_Score,0-100 rule-based synthetic risk score,Whole number
+Risk_Flag,"Low, Medium, or High based on synthetic rules",Text
+Fraud_Type,Synthetic anomaly category; not real fraud classification,Text
+Transaction_Channel,"Mobile App, Web, QR, UPI ID, or AutoPay",Text
+Month,YYYY-MM derived from date,Text
+Transaction_Hour,0-23 derived from time,Whole number
+Transaction_Size,"Small, Medium, Large, or Very Large",Text
